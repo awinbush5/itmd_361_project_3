@@ -1,0 +1,12 @@
+function initMap(){
+    const place = {lat: -25.344, lng: 131};
+    const map = new google.maps.Map(document.getElementById("map"),{
+        zoom: 3,
+        center: place,
+    });
+    const marker = new google.maps.Marker({
+        position: place,
+        map: map,
+    });
+}
+google.maps.event.addDomListener(window, 'load', initMap)

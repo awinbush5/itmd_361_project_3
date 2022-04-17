@@ -1,61 +1,50 @@
 body {
-  font-family: sans-serif;
+    font-family:sans-serif;
 }
-
 .wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-  box-shadow: -1px 3px 5px 0px #cacaca;
-  background: #fff2bf;
+    max-width: 56.25em;
+    margin: 0 auto;
+    box-shadow: -0.0625em 0.1875em 0.3125em 0em #cacaca;
+    background: #fff2bf;
 }
-
 nav ul {
-  list-style-type: none;
+    list-style-type:none;
 }
-
 nav ul li {
-  display: inline-block;
+    display:inline-block;
 }
+    nav ul li a {
+        color: #00a3ff;
+        text-transform: uppercase;
+        margin-right: 1.25em;
+        text-decoration:none
+    }
+    nav ul li a:hover {
+        color: #00b3ff;
 
-nav ul li a {
-  color: #00a3ff;
-  text-transform: uppercase;
-  margin-right: 20px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #00b3ff;
-}
-
+    }
 header {
-  background: #e6e6e6;
-  padding: 10px 0;
+    background: #e6e6e6;
+    padding: 0.625em 0;
 }
-
 section {
-  padding: 20px;
+    padding:1.25em;
 }
-
-section img,
-section iframe {
-  max-width: 100%;
+section img, section iframe {
+    max-width:100%;
 }
-
 h1 {
-  color: #0068ff;
-  font-size: 36px;
+    color: #0068ff;
+    font-size: 2.25em;
 }
-
 h2 {
-  color: #0052c8;
+    color: #0052c8;
 }
-
 h3 {
-  text-decoration: underline;
+    text-decoration:underline;
 }
 
 footer {
-  background: #e6e6e6;
-  padding: 10px;
+    background: #e6e6e6;
+    padding:0.625em;
 }

@@ -48,3 +48,8 @@ footer {
     background: #e6e6e6;
     padding:0.625em;
 }
+#map {
+ width: 600px;
+  height: 550px;
+  margin: 100px auto;
+}

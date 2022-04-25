@@ -56,5 +56,10 @@ footer {
 body {
   background-color: lightblue;
 }
-div#page3{background-color:#808080;}
+.cereal {
+    max-width: 56.25em;
+    margin: 0 auto;
+    box-shadow: -0.0625em 0.1875em 0.3125em 0em #cacaca;
+    background: #808080;
+}
 
